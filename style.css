@@ -1,12 +1,13 @@
 body
 {
     color: silver;
-    background: #001;
+    background: #003;
+    font-family:  sans-serif;
 }
 
 h1.header
 {
-    color: #FDA8FF;
+    color: #AAF;
     text-align: center;
 }
 
@@ -45,6 +46,7 @@ nav.header
     line-height: 300%;
     text-align: center;
     text-shadow: 2px 2px black;
+    box-shadow: -1px -1px 0px 1px #00F9;
 }
 
 nav.header ul
@@ -85,7 +87,7 @@ nav.header li.current a, nav.header a:hover
 
 main
 {
-    background: #0065;
+    background: #001;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -94,6 +96,8 @@ main
     padding-top: 4px;
     padding-bottom: 4px;
     overflow: auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px 5px #0007;
 }
 
 .floating
@@ -149,3 +153,4 @@ details.faq summary:hover
     font-weight: bold;
     text-decoration: none;
 }
+
